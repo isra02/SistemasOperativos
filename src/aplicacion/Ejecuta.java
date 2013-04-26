@@ -21,6 +21,7 @@ public class Ejecuta {
             s.nextLine();
             Linux l = null;
             Windows w =null;
+            /*
             Mac m = null;
             switch (opcion){
                 case 1:{
@@ -90,7 +91,8 @@ public class Ejecuta {
                 }break;
                 case 8:
                     System.out.println("Su sesion se ha cerrado correctamente");break;
-            }
+                    
+            }*/
         }while(opcion!=8);
     }
 }
