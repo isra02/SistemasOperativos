@@ -17,7 +17,7 @@ public abstract class SistemasOperativos {
         this.version = version;
         this.ramMaxima = ramMaxima;
         this.bits = bits;
-    }
+    }   
 
     
 
