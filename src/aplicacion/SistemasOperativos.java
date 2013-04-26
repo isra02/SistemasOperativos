@@ -17,7 +17,7 @@ public abstract class SistemasOperativos {
         this.version = version;
         this.ramMaxima = ramMaxima;
         this.bits = bits;
-    }
+    }   
 
     
 
@@ -56,5 +56,7 @@ public abstract class SistemasOperativos {
     public abstract String pantallazoAzul();
     public abstract String buscarVirus(); 
     
-    
+    public void imprimir (){
+        
+    }
 }
