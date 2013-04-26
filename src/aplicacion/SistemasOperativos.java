@@ -56,5 +56,7 @@ public abstract class SistemasOperativos {
     public abstract String pantallazoAzul();
     public abstract String buscarVirus(); 
     
-    
+    public void imprimir (){
+        
+    }
 }
