@@ -15,7 +15,7 @@ public class Windows extends SistemasOperativos{
 
     public Windows(String version, int ramMaxima, int bits) {
         super(version, ramMaxima, bits);
-    }
+    } 
    
 
     @Override
@@ -31,7 +31,7 @@ public class Windows extends SistemasOperativos{
     public String buscarVirus() {
          String buscarVirus = "";
       int num=r.nextInt(0-100)+1;
-      if (num < 80)buscarVirus="Virus detectado";
+      if (num < 70)buscarVirus="Virus detectado";
       else buscarVirus = "Sistema limpio de virus";
       return buscarVirus;
     }
